@@ -41,11 +41,7 @@ const Navbar = () => {
 
       </div>
       <div className="form-control">
-          <input
-            type="text"
-            placeholder="Search"
-            className="input input-bordered w-24 md:w-auto"
-          />
+      <input type="text" placeholder="search" className=" border-4 w-80 p-3 rounded-full" />
         </div>
       <div className="flex-none gap-2">
         <div className="flex gap-4">
@@ -53,7 +49,7 @@ const Navbar = () => {
             onClick={() => router.push("/create-post")}
             className="btn btn-success"
           >
-            Create pin
+            Create post
           </button>
 
           {user ? (
